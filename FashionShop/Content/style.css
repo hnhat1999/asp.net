@@ -1,0 +1,288 @@
+body{
+margin:0;
+padding:0;
+background:#000;
+}
+p {
+margin:0;
+padding:0;
+}
+img{
+border:none;
+}
+.flt
+{
+float:left;
+}
+#mainblock{
+margin:auto;
+width:1000px;
+}
+#innerblock{
+float:left;
+width:1000px;
+}
+#toppanel{
+float:left;
+width:1000px;
+}
+.tp_heading
+{
+float:left;
+margin:16px 0 0 352px;
+font:25px Arial, Helvetica, sans-serif;
+color:#F6037B;
+display:inline;
+}
+.tp_bg {
+    float: left;
+    background: url(images/tp_bg.jpg) no-repeat;
+    width: 1000px;
+    height: 285px;
+    margin-top: 12px;
+}
+.tp_logo
+{
+float:left;
+margin:43px 0 0 663px;
+}
+.tp_txt1{
+float:left;
+margin:50px 0 0 742px;
+display:inline;
+font:25px Georgia, Times New Roman, Times, serif;
+color:#27EC06;
+}
+.tp_txt2
+{
+float:left;
+display:inline;
+margin:0px 0 0 742px;
+font:36px Tahoma;
+color:#27EC06;
+}
+.fp_menutile {
+    float: left;
+    background: url(images/menu_tile.jpg) repeat-x;
+    width: 717px;
+    height: 60px;
+}
+.fp_shoppingbg {
+    float: left;
+    margin: 10px 0 0 33px;
+    background: url(images/cnt_shoppingimg.gif) no-repeat;
+    width: 216px;
+    height: 42px;
+}
+.menu1,.menu2{
+float:left;
+margin:22px 0 0 13px;
+font:bold 12px Georgia, Times New Roman, Times, serif;
+color:#fff;
+text-decoration:none;
+}
+.menu2{
+margin:22px 0 0 0px;
+}
+.tp_divider
+{
+float:left;
+margin:0px 13px 0 13px;
+}
+.tp_image1{
+float:left;
+margin:13px 0 0 20px;
+}
+.tp_txt3{
+float:left;
+font:12px Arial, Helvetica, sans-serif;
+margin:13px 0 0 10px;
+color:#FEEDD6;
+}
+
+.contentblock{
+float:left;
+width:1000px;
+margin-top:10px;
+display:inline;
+}
+/*conetnt panel starts here*/
+.contentpanel
+{
+float:left;
+width:669px;
+display:inline;
+margin-left:30px;
+}
+.cnt_headingblock {
+    float: left;
+    background: url(images/cnt_headingtile.jpg) repeat-x;
+    width: 669px;
+    height: 31px;
+}
+.cnt_btn1{
+float:left;
+margin:10px 0 0 25px;
+}
+.cnt_heading
+{
+float:left;
+margin:1px 0 0 10px;
+}
+.cnt_image1
+{
+float:left;
+margin:38px 0 0 48px;
+border:1px solid #C710C4;
+}
+/*content panel ends up*/
+
+/*right panel starts here*/
+.rightpanel{
+float:right;
+width:140px;
+display:inline;
+}
+.rp_headingblock {
+    float: left;
+    background: url(images/rp_tile.gif) repeat-x;
+    width: 258px;
+    height: 31px;
+}
+.cnt_btn2{
+float:left;
+margin:30px 0 0 25px;
+}
+.cnt_txt1
+{
+float:left;
+margin:25px 0 0 10px;
+width:620px;
+font:12px Arial, Helvetica, sans-serif;
+color:#FFF;
+}
+.cnt_readmore
+{
+float:left;
+margin:20px 0 0 40px;
+padding-bottom:15px;
+}
+.cnt_paypal{
+float:left;
+margin:26px 0 0 21px;
+padding-bottom:40px;
+}
+.cnt_txt2
+{
+float:left;
+font:12px Arial, Helvetica, sans-serif;
+color:#FFF;
+margin:20px 0 0 220px;
+}
+
+.cnt_innerblock1 {
+    float: left;
+    width: 640px;
+    margin: 0px 0 0 10px;
+    display: inline;
+    background: url(images/cnt_tile2.gif) repeat-y;
+}
+.cnt_inner1{
+float:left;
+width:200px;
+}
+.cntr_btn{
+float:left;
+margin:3px 0 0 20px;
+}
+.cnt_listtxt{
+float:left;
+font:11px Tahoma;
+margin:0px 0 0 10px;
+color:#FFF;
+}
+.rp_block1{
+float:left;
+background:#0B0B0B;
+width:258px;
+}
+.rp_block2{
+float:left;
+background:#0B0B0B;
+width:258px;
+border:1px solid #262525;
+}
+
+.rp_listblock{
+float:left;
+clear:left;
+width:220px;
+}
+.rp_btn3{
+float:left;
+margin:15px 0 0 30px;
+display:inline;
+}
+.rp_listtxt{
+float:left;
+margin:11px 0 0 10px;
+width:170px;
+color:#C0B5B5;
+font:11px Tahoma;
+}
+.rp_txt1
+{
+float:left;
+margin:10px 0 0 7px;
+font:11px/16px Arial, Helvetica, sans-serif;
+color:#FFF;
+}
+.rp_txt2
+{
+float:left;
+margin:3px 0 0 5px;
+font:bold 18px Arial, Helvetica, sans-serif;
+color:#EFD711;
+text-decoration:underline;
+}
+.rp_image1{
+float:left;
+margin:10px 0 0 0px;
+}
+.fp_bg {
+    float: left;
+    background: url(images/fp_bg.jpg) no-repeat;
+    width: 1000px;
+    height: 95px;
+}
+
+#footerblock{
+float:left;
+margin:30px 0 0 180px;
+width:700px;
+display:inline;
+}
+.fp_txt{
+float:left;
+margin:0px 0 0 0px;
+font:11px Tahoma;
+color:#969595;
+text-decoration:none;
+display:inline;
+}
+.fp_divi{
+float:left;
+margin:0px 10px 0 10px;
+font:11px Tahoma;
+color:#969595;
+display:inline;
+}
+.fp_txt1
+{
+float:left;
+font:11px Tahoma;
+color:#969595;
+display:inline;
+margin:10px 0 0 170px;
+padding-bottom:15px;
+}

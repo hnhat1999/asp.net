@@ -1,0 +1,36 @@
+﻿
+<style>
+    #Datmua a{
+        clear:both; background-color:red;
+        color:white; width:120px; 
+        text-align:center;
+        
+    }
+    #Datmua a:hover{
+        background-color:gray;
+        color:red;
+    }
+</style>
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="text-align:center">Thông Tin Chi Tiết Sản Phẩm</h3>
+<div>
+    <div style="width: 40%; float: left; border-left: 5px solid red; border-style:solid" >
+        
+        <img alt="@Model.Tensach" src="~/Hinh/@Model.Anhbia" width="100%" />
+    </div>
+    <div style="width:34%; float:left; padding:10px">
+        <h4 style="font-weight:bold; color:red">Ten sach : @Model.Tensach</h4>
+        <p>Mo ta : @Model.Mota </p>
+        <p style="font-weight:bold; color:red; font-size:16pt">Gia ban: @Model.Giaban</p>
+    </div>
+    <div style="width:34%; float:right; padding:10px" id="Datmua">
+        <a href="@Url.Action("ThemGioHang", "Giohang", new { @iMasach = @Model.Masach , @strUrl = Request.Url.ToString() }) "class="list-group-item" >
+            Dat mua
+        </a>
+    </div>
+</div>
+

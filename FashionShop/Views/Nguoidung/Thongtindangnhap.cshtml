@@ -1,0 +1,14 @@
+﻿@using FashionShop.Models
+@{
+    ViewBag.Title = "Profile";
+    var kh = Session["Taikhoan"] as FashionShop.Models.KHACHHANG;
+}
+<h2>Profile</h2>
+<ul>
+    <li>User name: @kh.Taikhoan</li>
+    <li>User name: @kh.Matkhau</li>
+    <li>User name: @kh.HoTen</li>
+</ul>
+<p>
+    <a href="@Url.Action("Logout","Nguoidung")">Logout</a>
+</p>

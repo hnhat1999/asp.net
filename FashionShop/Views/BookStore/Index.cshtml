@@ -1,0 +1,55 @@
+﻿@using FashionShop.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<SACH>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="text-align:center"> sach moi</h1>
+
+<div class="row">
+    @foreach (var sach in Model)
+    {
+        <div class=" col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Details", "BookStore", new { id = sach.Masach })">
+                    <img alt="@sach.Tensach" src="~/Hinh/@sach.Anhbia" width="200" />
+
+                    <div>
+                        <br />
+                        <h4 style="text-align:center">
+                            @sach.Tensach
+
+                        </h4>
+                        <p></p>
+                    </div>
+                    <div class="ratings">
+                        <p class="pull-right">15view</p>
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+  }
+<div>
+    Trang@(Model.PageCount<Model.PageNumber?0:Model.PageNumber) /@Model.PageCount
+</div>
+<div class="MenuTrang">
+    @Html.PagedListPager(Model,page => Url.Action("Index", new {page=page}))
+</div>
+<style>
+    .MenuTrang{
+        display:inline;
+    }
+</style>
+
